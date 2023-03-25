@@ -48,10 +48,11 @@ body {
 }
 
 html {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 16px;
+line-height: 1.5;
 }
+
 @media (min-width: 38em) {
   html {
     font-size: 20px;
@@ -80,30 +81,33 @@ a:focus {
 /* Headings */
 
 h1, h2, h3, h4, h5, h6 {
-  /* margin-bottom: .5rem; */
-  /* font-weight: lighter; */
-  /* line-height: 1.25; */
-  color: #313131;
-  text-rendering: optimizeLegibility;
+/* margin-bottom: .5rem; */
+/* font-weight: lighter; */
+/* line-height: 1.25; */
+color: #313131;
+text-rendering: optimizeLegibility;
+font-variant: small-caps;
+font-weight: lighter;
 }
 h1 {
-  font-size: 2rem;
-  font-weight: bold;
+font-size: 2rem;
+font-variant: normal;
 }
 h2 {
-  /* margin-top: 1rem; */
-  font-size: 1.5rem;
-  font-weight: bold;
+/* margin-top: 1rem; */
+font-size: 1.5rem;
+font-weight: lighter;
+border-bottom: 1px solid #313131;
 }
 h3 {
   /* margin-top: 1.5rem; */
-  font-size: 1.25rem;
-  font-weight: lighter;
+  font-size: 1rem;
+  font-weight: bold;
+  /* text-decoration: underline; */
 }
 h4, h5, h6 {
   /* margin-top: 1rem; */
   font-size: 1rem;
-  font-weight: lighter;
 }
 
 /* Body text */
